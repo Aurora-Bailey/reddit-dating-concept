@@ -4,6 +4,7 @@
       <div class="text-xs-center">
         <img src="/v.png" alt="Vuetify.js" class="mb-5" />
       </div>
+      <nuxt-logo></nuxt-logo>
       <v-card>
         <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
         <v-card-text>
@@ -28,3 +29,17 @@
     </v-flex>
   </v-layout>
 </template>
+
+<script>
+  import NuxtLogo from '~/components/NuxtLogo'
+  export default {
+    components: {
+      NuxtLogo
+    },
+    data () {
+      return {
+        asdf: false
+      }
+    }
+  }
+</script>
