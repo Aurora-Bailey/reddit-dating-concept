@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "user_id": "short hash",
+      "username": "short string",
+      "profile_description": "long text",
+      "profile_picture": {
+        "small": "short text",
+        "medium": "short text",
+        "large": "short text"
+      },
+      "gender": "short text",
+      "birthday": 123456789123,
+      "location": {
+        "lat": 456,
+        "lon": 789,
+        "city_name": "short text"
+      },
+      "devices": [
+        {
+          "device_id": "short text",
+          "token": "short text",
+          "mobile": true,
+          "push_notifications": true,
+        }
+      ],
+      "subscriptions": [
+        {
+          "subreddit": "short text",
+          "state": 2
+        }
+      ]
+    }
+  ],
+  "chat": {
+    "room_id": {
+      "users": [
+        {"user_id": "short hash"}
+      ],
+      "messages": [
+        {"message_id": 1234, "user_id": "short hash", "text": "long text", "timestamp": 123456789123}
+      ],
+      "last_message": 1234567890123
+    }
+  },
+  "browse": {
+
+  }
+}
